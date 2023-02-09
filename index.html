@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="googlemap.css" rel="stylesheet">
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9eZ0R5SeI0MI22j5bwKqi8S0bXNj1alU&callback=initmap">
+</script>
+    <script src="googlemap.js"></script>
+</head>
+<body>
+        <section class="container">
+            <section class="btns">
+                <input type="button" value="Display Map" onclick="getlocation('dislpaymap');">
+                <input type="button" value="Detail information" onclick="getlocation('info');">
+            </section>
+            <section id="map">
+
+            </section>
+        </section>
+    
+</body>
+</html>
